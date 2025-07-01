@@ -1,0 +1,24 @@
+.typewriter {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 5s steps(40) infinite, blink-caret 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink-caret {
+    50% {
+      border-color: transparent;
+    }
+  }
+
+  .typewriter-text {
+    color: #ffffff; 
+    font-family: 'Courier New', monospace; 
+  }
+  
