@@ -3,8 +3,8 @@ import Typewriter from 'typewriter-effect';
 
 const TypewriterEffect: React.FC = () => {
     return (
-        <div className="absolute top-0 right-0 md:w-1/3 w-2/3 min-h-[400px] h-screen overflow-hidden bg-transparent backdrop-blur-sm flex justify-center items-center z-[-1] text-white md:text-2xl text-sm text-left">
-            <div className="flex items-center min-h-[400px]">
+        <div className="absolute top-0 right-0 md:w-1/3 w-2/3 -mt-10 md:-mt-0 min-h-[400px] h-screen overflow-hidden bg-transparent backdrop-blur-sm flex justify-center items-center z-[-1] text-white md:text-2xl text-sm text-left">
+            <div className="flex items-center min-h-[400px] ">
             <Typewriter
                 onInit={(typewriter) => {
                     typewriter
