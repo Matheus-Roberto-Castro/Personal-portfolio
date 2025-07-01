@@ -27,7 +27,7 @@ const Habilidades: React.FC = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-14 w-2/3 mx-auto md:my-20 my-5 pb-20 md:pb-0 ">
+      <div className="flex flex-wrap justify-center gap-10 md:gap-14 md:w-2/3  mx-auto md:my-20 my-5 pb-20 md:pb-0 ">
         {tecnologias.map((tecnologia) => (
           <img 
             key={tecnologia.name}

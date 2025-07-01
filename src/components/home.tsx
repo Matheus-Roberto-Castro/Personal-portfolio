@@ -2,7 +2,7 @@ const Home: React.FC = () => {
   return (
     <section
       id="home"
-      className="w-full h-screen flex justify-center scroll-mt-24 -mt-10 mb-5 px-6 md:px-12"
+      className="w-full h-screen flex justify-center scroll-mt-24 -mt-20 mb-5 px-6 md:px-12"
     >
       <div className="flex flex-col justify-center text-left items-start pt-20 mt-40 mb-40 w-full max-w-5xl">
         <p className="text-cyan-300 text-xl md:text-2xl">Olá! Meu nome é</p>

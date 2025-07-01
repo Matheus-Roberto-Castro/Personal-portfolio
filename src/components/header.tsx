@@ -30,7 +30,7 @@ const Header: React.FC = () => {
                 </button>
             </div>
             {menuAberto && (
-                <div className="md:hidden px-6 mt-4 space-y-4 flex flex-col items-start">
+                <div className="md:hidden px-6 mt-4 space-y-4 flex flex-col items-end">
                     <a href="#habilidade" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Habilidades</a>
                     <a href="#projetos" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Projetos</a>
                     <a href="#contato" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Contato</a>
