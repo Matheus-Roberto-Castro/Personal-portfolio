@@ -27,11 +27,13 @@ const Habilidades: React.FC = () => {
         </h1>
       </div>
 
+      <p className="flex text-white/80  text-left md:text-xl">Tecnologias e ferramentas com as quais estou familiarizado:</p>
+
       <div className="flex flex-wrap justify-center gap-10 md:gap-14 md:w-2/3  mx-auto md:my-20 my-5 pb-20 md:pb-0 ">
         {tecnologias.map((tecnologia) => (
           <img 
             key={tecnologia.name}
-            className="w-12 h-12 hover:-translate-y-2 transition-all duration-300"
+            className="w-12 h-12 hover:-translate-y-2 active:-translate-y-2 transition-all duration-300"
             src={tecnologia.src}
             alt={tecnologia.name}
             title={tecnologia.name}

@@ -8,7 +8,7 @@ const Contatos: React.FC = () => {
                 </h1>
                 <div className="border-t-1 border-cyan-300 flex-grow ml-3 mt-2" />
             </div>
-            <div className="md:py-20 py-4">
+            <div className="flex flex-col justify-center h-[60vh]">
                 <h2 className="text-white/80 text-center text-lg max-w-xl mx-auto mb-8">
                     Estou sempre aberto a novas conexões, parcerias ou conversas. Sinta-se à vontade para entrar em contato.
                 </h2>
