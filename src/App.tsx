@@ -7,6 +7,7 @@ import Habilidades from './components/habilidades'
 import Footer from './components/footer'
 import Projetos from './components/projetos'
 import Contatos from './components/contatos'
+import Experiencias from './components/experiencias'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       <Home/>
       <Sobre/>
       <Habilidades/>
+      <Experiencias/>
       <Projetos/>
       <Contatos/>
       <Footer/>

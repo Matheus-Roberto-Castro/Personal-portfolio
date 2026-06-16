@@ -12,7 +12,9 @@ const Header: React.FC = () => {
                     &lt;/&gt;MatheusRCastro
                 </a>
                 <nav className="hidden md:flex space-x-6 items-center">
+                    <a href="#sobre" className="hover:text-cyan-400 transition">Sobre</a>
                     <a href="#habilidade" className="hover:text-cyan-400 transition">Habilidades</a>
+                    <a href="#experiencias" className="hover:text-cyan-400 transition">Experiências</a>
                     <a href="#projetos" className="hover:text-cyan-400 transition">Projetos</a>
                     <a href="#contato" className="hover:text-cyan-400 transition">Contato</a>
                     <button
@@ -31,10 +33,11 @@ const Header: React.FC = () => {
             </div>
             {menuAberto && (
                 <div
-                    className={`md:hidden px-6 mt-4 flex flex-col items-end overflow-hidden transition-all duration-300 ease-in-out ${menuAberto ? "max-h-96 opacity-100 space-y-4" : "max-h-0 opacity-0"
-                        }`}
+                    className={`md:hidden px-6 mt-4 flex flex-col items-end overflow-hidden transition-all duration-300 ease-in-out ${menuAberto ? "max-h-96 opacity-100 space-y-4" : "max-h-0 opacity-0"}`}
                 >
+                    <a href="#sobre" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Sobre</a>
                     <a href="#habilidade" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Habilidades</a>
+                    <a href="#experiencias" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Experiências</a>
                     <a href="#projetos" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Projetos</a>
                     <a href="#contato" className="hover:text-cyan-400 transition" onClick={() => setMenuAberto(false)}>Contato</a>
                     <button

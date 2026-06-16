@@ -4,7 +4,7 @@ const Contatos: React.FC = () => {
             <div id="contato" className="flex items-center w-full py-20">
                 <div className="border-t-1 border-cyan-300 flex-grow mr-3 mt-2" />
                 <h1 className="md:text-3xl text-xl text-white">
-                    <span className="text-cyan-300">04</span>.Contato
+                    <span className="text-cyan-300">05</span>.Contato
                 </h1>
                 <div className="border-t-1 border-cyan-300 flex-grow ml-3 mt-2" />
             </div>

@@ -64,7 +64,7 @@ const Projetos: React.FC = () => {
     <div id='projetos' className='scroll-mt-20'>
       <div className="flex items-center w-full px-4">
         <h1 className="text-xl md:text-3xl text-white">
-          <span className="text-cyan-300">03</span>.Projetos
+          <span className="text-cyan-300">04</span>.Projetos
         </h1>
         <div className="border-t-1 border-cyan-300 flex-grow ml-3 mt-3" />
       </div>
