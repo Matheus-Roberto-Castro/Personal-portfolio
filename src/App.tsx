@@ -2,7 +2,7 @@ import './App.css'
 import TypewriterEffect from './components/efeitoBG'
 import Header from './components/header'
 import Home from './components/home'
-//import Sobre from './components/sobre'
+import Sobre from './components/sobre'
 import Habilidades from './components/habilidades'
 import Footer from './components/footer'
 import Projetos from './components/projetos'
@@ -16,7 +16,7 @@ export default function App() {
     <div className="blur-[3px]"><TypewriterEffect/></div>
     <main className="bg-transparent h-screen">
       <Home/>
-      {/*<Sobre/>*/}
+      <Sobre/>
       <Habilidades/>
       <Projetos/>
       <Contatos/>
